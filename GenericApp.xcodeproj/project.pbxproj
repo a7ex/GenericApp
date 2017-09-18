@@ -162,8 +162,8 @@
 		FA9D23531F6C0DAC00406509 /* RestBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestBackend.swift; sourceTree = "<group>"; };
 		FA9D23541F6C0DAC00406509 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		FA9D23591F6C0ED900406509 /* styleGuide.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = styleGuide.rtf; sourceTree = "<group>"; };
-		FA9D235A1F6C0F0000406509 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		FA9D235B1F6C0F2900406509 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		FA9D235A1F6C0F0000406509 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		FA9D235B1F6C0F2900406509 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .swiftlint.yml; path = ../.swiftlint.yml; sourceTree = "<group>"; };
 		FA9D23711F6C102500406509 /* ConfigUIValues.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConfigUIValues.plist; sourceTree = "<group>"; };
 		FA9D23731F6C102500406509 /* ConfigAppValues.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConfigAppValues.plist; sourceTree = "<group>"; };
 		FA9D23741F6C102500406509 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
