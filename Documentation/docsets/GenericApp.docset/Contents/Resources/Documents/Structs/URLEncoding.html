@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URLEncoding Struct Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/URLEncoding" class="dashAnchor"></a>
+    <a title="URLEncoding Struct Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GenericApp Docs</a> (39% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GenericApp Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        URLEncoding Struct Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10GenericApp0B5StateC">AppState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)CenteredLabelButton">CenteredLabelButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MultilineTextEditorVC.html">MultilineTextEditorVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)OverlayView">OverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RatingView.html">RatingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)RequestPermissionVC">RequestPermissionVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TVRefreshControl.html">TVRefreshControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)TextViewWithPlaceholder">TextViewWithPlaceholder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:10GenericApp10HTTPMethodO">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:10GenericApp15OverlayViewTypeO">OverlayViewType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UICollectionViewCell.html">UICollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIEdgeInsets.html">UIEdgeInsets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISplitViewController.html">UISplitViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboard.html">UIStoryboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboardSegue.html">UIStoryboardSegue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableViewCell.html">UITableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLRequest.html">URLRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10GenericApp15LocalizedStringS2S_SS7commenttF">LocalizedString(_:comment:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10GenericApp24localizedPathForResourceSSSgSS_SS6ofTypetF">localizedPathForResource(_:ofType:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10GenericApp16BackendConnectorP">BackendConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10GenericApp21BackendStateConnectorP">BackendStateConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10GenericApp14EnumCollectionP">EnumCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ParameterEncoding.html">ParameterEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/URLRequestConvertible.html">URLRequestConvertible</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp0B14StateConnectorV">AppStateConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp9AsyncTaskV">AsyncTask</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp7BackendV">Backend</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp11CredentialsV">Credentials</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Email.html">Email</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/JSONEncoding.html">JSONEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PropertyListEncoding.html">PropertyListEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RestBackend.html">RestBackend</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLEncoding.html">URLEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLEncoding.html#/s:10GenericApp11URLEncodingV11DestinationO">– Destination</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Typealiases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10GenericApp10Parametersa">Parameters</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>URLEncoding</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">URLEncoding</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ParameterEncoding.html">ParameterEncoding</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Creates a url-encoded query string to be set as or appended to any existing URL query string or set as the HTTP
+body of the URL request. Whether the query string is set or appended to any existing URL query string or set as
+the HTTP body depends on the destination of the encoding.</p>
+
+<p>The <code>Content-Type</code> HTTP header field of an encoded request with HTTP body is set to
+<code>application/x-www-form-urlencoded; charset=utf-8</code>. Since there is no published specification for how to encode
+collection types, the convention of appending <code>[]</code> to the key for array values (<code>foo[]=1&amp;foo[]=2</code>), and appending
+the key surrounded by square brackets for nested dictionary values (<code>foo[bar]=baz</code>).</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Helper%20Types"></a>
+                <a name="//apple_ref/swift/Section/Helper Types" class="dashAnchor"></a>
+                <a href="#/Helper%20Types">
+                  <h3 class="section-name">Helper Types</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV11DestinationO"></a>
+                    <a name="//apple_ref/swift/Enum/Destination" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV11DestinationO">Destination</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Defines whether the url-encoded query string is applied to the existing query string or HTTP body of the
+resulting URL request.</p>
+
+<ul>
+<li>methodDependent: Applies encoded query string result to existing query string for <code>GET</code>, <code>HEAD</code> and <code>DELETE</code>
+               requests and sets as the HTTP body for requests with any other HTTP method.</li>
+<li>queryString:     Sets or appends encoded query string result to existing query string.</li>
+<li>httpBody:        Sets encoded query string result as the HTTP body of the URL request.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Destination</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <a href="#/Properties">
+                  <h3 class="section-name">Properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV7defaultACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/default" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV7defaultACvZ">default</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a default <code>URLEncoding</code> instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">var</span> <span class="err">`</span><span class="k">default</span><span class="err">`</span><span class="p">:</span> <span class="kt">URLEncoding</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV15methodDependentACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/methodDependent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV15methodDependentACvZ">methodDependent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>URLEncoding</code> instance with a <code>.methodDependent</code> destination.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">methodDependent</span><span class="p">:</span> <span class="kt">URLEncoding</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV11queryStringACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/queryString" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV11queryStringACvZ">queryString</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>URLEncoding</code> instance with a <code>.queryString</code> destination.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">queryString</span><span class="p">:</span> <span class="kt">URLEncoding</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV8httpBodyACvZ"></a>
+                    <a name="//apple_ref/swift/Variable/httpBody" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV8httpBodyACvZ">httpBody</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code>URLEncoding</code> instance with an <code>.httpBody</code> destination.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">httpBody</span><span class="p">:</span> <span class="kt">URLEncoding</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV11destinationAC11DestinationOv"></a>
+                    <a name="//apple_ref/swift/Property/destination" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV11destinationAC11DestinationOv">destination</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The destination defining where the encoded query string is to be applied to the URL request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">destination</span><span class="p">:</span> <span class="kt"><a href="../Structs/URLEncoding.html#/s:10GenericApp11URLEncodingV11DestinationO">Destination</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <a href="#/Initialization">
+                  <h3 class="section-name">Initialization</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingVA2C11DestinationO11destination_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(destination:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingVA2C11DestinationO11destination_tcfc">init(destination:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a <code>URLEncoding</code> instance using the specified destination.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">destination</span><span class="p">:</span> <span class="kt"><a href="../Structs/URLEncoding.html#/s:10GenericApp11URLEncodingV11DestinationO">Destination</a></span> <span class="o">=</span> <span class="o">.</span><span class="n"><a href="../Structs/URLEncoding.html#/s:10GenericApp11URLEncodingV15methodDependentACvZ">methodDependent</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>destination</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The destination defining where the encoded query string is to be applied.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The new <code>URLEncoding</code> instance.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Encoding"></a>
+                <a name="//apple_ref/swift/Section/Encoding" class="dashAnchor"></a>
+                <a href="#/Encoding">
+                  <h3 class="section-name">Encoding</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV6encode10Foundation10URLRequestVAA0F11Convertible_p_s10DictionaryVySSypGSg4withtKF"></a>
+                    <a name="//apple_ref/swift/Method/encode(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV6encode10Foundation10URLRequestVAA0F11Convertible_p_s10DictionaryVySSypGSg4withtKF">encode(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates a URL request by encoding parameters and applying them onto an existing request.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <p>An <code>Error</code> if the encoding process encounters an error.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">encode</span><span class="p">(</span><span class="n">_</span> <span class="nv">urlRequest</span><span class="p">:</span> <span class="kt"><a href="../Protocols/URLRequestConvertible.html">URLRequestConvertible</a></span><span class="p">,</span> <span class="n">with</span> <span class="nv">parameters</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:10GenericApp10Parametersa">Parameters</a></span><span class="p">?)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt">URLRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>urlRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The request to have parameters applied.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>parameters</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The parameters to apply.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The encoded request.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV15queryComponentsSaySS_SStGSS7fromKey_yp5valuetF"></a>
+                    <a name="//apple_ref/swift/Method/queryComponents(fromKey:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV15queryComponentsSaySS_SStGSS7fromKey_yp5valuetF">queryComponents(fromKey:value:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates percent-escaped, URL encoded query string components from the given key-value pair using recursion.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">queryComponents</span><span class="p">(</span><span class="n">fromKey</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[(</span><span class="kt">String</span><span class="p">,</span> <span class="kt">String</span><span class="p">)]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The key of the query component.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The value of the query component.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The percent-escaped, URL encoded query string components.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10GenericApp11URLEncodingV6escapeS2SF"></a>
+                    <a name="//apple_ref/swift/Method/escape(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10GenericApp11URLEncodingV6escapeS2SF">escape(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a percent-escaped string following RFC 3986 for a query string key or value.</p>
+
+<p>RFC 3986 states that the following characters are <q>reserved</q> characters.</p>
+
+<ul>
+<li>General Delimiters: <q>:</q>, <q>#</q>, <q>[</q>, <q>]</q>, <q>@</q>, <q>?</q>, <q>/</q></li>
+<li>Sub-Delimiters: <q>!</q>, <q>$</q>, <q>&</q>, <q>&lsquo;</q>, <q>(</q>, <q>)</q>, <q>*</q>, <q>+</q>, <q>,</q>, <q>;</q>, <q>=</q></li>
+</ul>
+
+<p>In RFC 3986 - Section 3.4, it states that the <q>?</q> and <q>/</q> characters should not be escaped to allow
+query strings to include a URL. Therefore, all <q>reserved</q> characters with the exception of <q>?</q> and <q>/</q>
+should be percent-escaped in the query string.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">escape</span><span class="p">(</span><span class="n">_</span> <span class="nv">string</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>string</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The string to be percent-escaped.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The percent-escaped string.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Deutsche Post E-Post Development GmbH</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

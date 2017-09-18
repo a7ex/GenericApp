@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>String Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/String" class="dashAnchor"></a>
+    <a title="String Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">GenericApp Docs</a> (39% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">GenericApp Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        String Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10GenericApp0B5StateC">AppState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)CenteredLabelButton">CenteredLabelButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MultilineTextEditorVC.html">MultilineTextEditorVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)OverlayView">OverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RatingView.html">RatingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)RequestPermissionVC">RequestPermissionVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TVRefreshControl.html">TVRefreshControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:@M@GenericApp@objc(cs)TextViewWithPlaceholder">TextViewWithPlaceholder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:10GenericApp10HTTPMethodO">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:10GenericApp15OverlayViewTypeO">OverlayViewType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UICollectionViewCell.html">UICollectionViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIEdgeInsets.html">UIEdgeInsets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISplitViewController.html">UISplitViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboard.html">UIStoryboard</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIStoryboardSegue.html">UIStoryboardSegue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableViewCell.html">UITableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLRequest.html">URLRequest</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10GenericApp15LocalizedStringS2S_SS7commenttF">LocalizedString(_:comment:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:10GenericApp24localizedPathForResourceSSSgSS_SS6ofTypetF">localizedPathForResource(_:ofType:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10GenericApp16BackendConnectorP">BackendConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10GenericApp21BackendStateConnectorP">BackendStateConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10GenericApp14EnumCollectionP">EnumCollection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ParameterEncoding.html">ParameterEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/URLRequestConvertible.html">URLRequestConvertible</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp0B14StateConnectorV">AppStateConnector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp9AsyncTaskV">AsyncTask</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp7BackendV">Backend</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:10GenericApp11CredentialsV">Credentials</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Email.html">Email</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/JSONEncoding.html">JSONEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PropertyListEncoding.html">PropertyListEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RestBackend.html">RestBackend</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLEncoding.html">URLEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/URLEncoding.html#/s:10GenericApp11URLEncodingV11DestinationO">– Destination</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Typealiases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:10GenericApp10Parametersa">Parameters</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>String</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">struct</span> <span class="kt">String</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE9subscriptSSs5RangeVySiGci"></a>
+                    <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE9subscriptSSs5RangeVySiGci">subscript(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a range of a String by subscripting with a range of Int</p>
+
+<p>Example:
+   let myString = <q>abcd</q>
+   print(myString[1..&lt;3])
+   &ndash; <q>bc</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="nf">subscript</span><span class="p">(</span><span class="nv">rng</span><span class="p">:</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">Int</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rng</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>a CountableRange</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE9subscriptSSSici"></a>
+                    <a name="//apple_ref/swift/Method/subscript(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE9subscriptSSSici">subscript(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a character as String by subscripting with an Int</p>
+
+<p>Positive integer values count form the start
+while negative values count from the end</p>
+
+<p>Example:
+   let myString = <q>abcd</q>
+   print(myString[2])
+   &ndash; <q>c</q>
+   print(myString[-1])
+   &ndash; <q>d</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="nf">subscript</span><span class="p">(</span><span class="nv">pos</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pos</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Int</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE9substringSSSi5start_Su6lengthtF"></a>
+                    <a name="//apple_ref/swift/Method/substring(start:length:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE9substringSSSi5start_Su6lengthtF">substring(start:length:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a substring by providing a start position and a length</p>
+
+<p>Positive integer values count from the start
+while negative values count from the end</p>
+
+<p>Example:
+   let myString = <q>abcd</q>
+   print(myString.substring(start: 1, length: 2))
+   &ndash; <q>bc</q>
+   print(myString.substring(start: -2, length: 1))
+   &ndash; <q>c</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">substring</span><span class="p">(</span><span class="nv">start</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">length</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>start</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the start index of the substring</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>length</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the length of the substring</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE9substringSSSi5start_Si3endtF"></a>
+                    <a name="//apple_ref/swift/Method/substring(start:end:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE9substringSSSi5start_Si3endtF">substring(start:end:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get a substring by providing a start position and an end position</p>
+
+<p>Positive integer values count from the start
+while negative values count from the end</p>
+
+<p>This is the substring FROM &lsquo;start&rsquo; TO &lsquo;end&rsquo;. The character at &lsquo;start&rsquo; is
+included, while the character at &lsquo;end&rsquo; is NOT included.
+So that &lsquo;end&rsquo; - &lsquo;start&rsquo; is the length of the string
+(in the case where start and end are either both &gt; 0 or both &lt; 0)</p>
+
+<p>Example:
+   let myString = <q>abcd</q>
+   print(myString.substring(start: 1, end: 3))
+   &ndash; <q>bc</q>
+   print(myString.substring(start: -3, end: -2))
+   &ndash; <q>b</q></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">substring</span><span class="p">(</span><span class="nv">start</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">end</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>start</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the start index of the substring</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>end</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the exclisve(!) end index of the substring</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE14nonEmptyStringSSSgv"></a>
+                    <a name="//apple_ref/swift/Property/nonEmptyString" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE14nonEmptyStringSSSgv">nonEmptyString</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the equivalent to the Optional&rsquo;s &lsquo;nonEmptyString&rsquo;
+so that we can use it interchangeble for Strings and optional Strings</p>
+
+<p>so instead of requiring something very common in our code like:</p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">unwrappedString</span> <span class="o">=</span> <span class="n">someOptionalString</span><span class="p">,</span>
+     <span class="o">!</span><span class="n">unwrappedString</span><span class="o">.</span><span class="n">isEmpty</span> <span class="p">{</span>
+     <span class="o">...</span> <span class="k">do</span> <span class="n">something</span> <span class="n">with</span> <span class="n">non</span> <span class="n">empty</span><span class="p">,</span> <span class="n">unwrapped</span> <span class="err">'</span><span class="n">unwrappedString</span><span class="err">'</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>we can instead just use:</p>
+<pre class="highlight swift"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">stringWithContent</span> <span class="o">=</span> <span class="n">someString</span><span class="o">.</span><span class="n">nonEmptyString</span> <span class="p">{</span>
+     <span class="o">...</span> <span class="k">do</span> <span class="n">something</span> <span class="n">with</span> <span class="n">non</span> <span class="n">empty</span> <span class="err">'</span><span class="n">someString</span><span class="err">'</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">nonEmptyString</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE12convertRanges0D0VySS5IndexVGSgSC8_NSRangeV4from_tF"></a>
+                    <a name="//apple_ref/swift/Method/convertRange(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE12convertRanges0D0VySS5IndexVGSgSC8_NSRangeV4from_tF">convertRange(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convert NSRange to Swift Text Range</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">convertRange</span><span class="p">(</span><span class="n">from</span> <span class="nv">nsRange</span><span class="p">:</span> <span class="kt">NSRange</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>objCRange</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Objective-C NSRange</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Swift Text Range representing the same range for this string</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE16NSRangeFromRangeSC01_C0Vs0E0VySS5IndexVG4from_tF"></a>
+                    <a name="//apple_ref/swift/Method/NSRangeFromRange(from:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE16NSRangeFromRangeSC01_C0Vs0E0VySS5IndexVG4from_tF">NSRangeFromRange(from:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Converts string indexes&rsquo; range to NSRange</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="kt">NSRangeFromRange</span><span class="p">(</span><span class="n">from</span> <span class="nv">range</span><span class="p">:</span> <span class="kt">Range</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">.</span><span class="kt">Index</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>range</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>string indexes&rsquo; range</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>same NSRange represantation for this string</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS10GenericAppE9dateValue10Foundation4DateVSgv"></a>
+                    <a name="//apple_ref/swift/Property/dateValue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS10GenericAppE9dateValue10Foundation4DateVSgv">dateValue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Try to convert a string representing a date to a NSDate object</p>
+
+<p>Start with ISO 8601 format, then our <q>Conrad German date format</q>, then a timestamp</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">dateValue</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>NSDate object corresponding to input string</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Deutsche Post E-Post Development GmbH</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

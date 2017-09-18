@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ErrorDomain</key>
+	<string>com.epost</string>
+	<key>BackendServerURL</key>
+	<string>http://127.0.0.1</string>
+	<key>defaultLocale</key>
+	<string>de-DE</string>
+	<key>APNSSettings</key>
+	<dict>
+		<key>Debug</key>
+		<dict>
+			<key>PartnerID</key>
+			<string>debugID</string>
+			<key>PrivateKey</key>
+			<string>debugKey</string>
+		</dict>
+		<key>Production</key>
+		<dict>
+			<key>PartnerID</key>
+			<string>productionID</string>
+			<key>PrivateKey</key>
+			<string>productionKey</string>
+		</dict>
+	</dict>
+	<key>AppStoreURL</key>
+	<string>itms://itunes.apple.com/de/app/</string>
+</dict>
+</plist>

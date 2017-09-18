@@ -1,0 +1,1447 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/AppStateConnector.swift",
+      "line": 12,
+      "symbol": "AppStateConnector.currentSessionId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/AppStateConnector.swift",
+      "line": 16,
+      "symbol": "AppStateConnector.currentLocaleIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/AppStateConnector.swift",
+      "line": 20,
+      "symbol": "AppStateConnector.updateSessionId(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/AppStateConnector.swift",
+      "line": 24,
+      "symbol": "AppStateConnector.updateSessionValidityDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/AppStateConnector.swift",
+      "line": 28,
+      "symbol": "AppStateConnector.updateLocaleIdentifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": null,
+      "symbol": "ServiceError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 6,
+      "symbol": "ServiceError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 31,
+      "symbol": "BackendConnector.login(userName:password:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 32,
+      "symbol": "BackendConnector.logout()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 33,
+      "symbol": "BackendConnector.signUp(password:firstName:lastName:email:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 39,
+      "symbol": "BackendStateConnector.currentSessionId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 40,
+      "symbol": "BackendStateConnector.currentLocaleIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 41,
+      "symbol": "BackendStateConnector.updateSessionId(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 42,
+      "symbol": "BackendStateConnector.updateSessionValidityDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 43,
+      "symbol": "BackendStateConnector.updateLocaleIdentifier(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 61,
+      "symbol": "Backend.connector",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 62,
+      "symbol": "Backend.services",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 64,
+      "symbol": "Backend.defaultBackend",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 68,
+      "symbol": "Backend.init(connector:stateConnector:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 73,
+      "symbol": "Backend.login(userName:password:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 76,
+      "symbol": "Backend.logout()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Backend.swift",
+      "line": 80,
+      "symbol": "Backend.signUp(password:firstName:lastName:email:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Services/RESTServices/RESTErrorProcessing.swift",
+      "line": 6,
+      "symbol": "ServerResponseMetaData",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Services/RESTServices/RESTErrorProcessing.swift",
+      "line": 10,
+      "symbol": "RESTErrorProcessing",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Services/RESTServices/RESTUserService.swift",
+      "line": 11,
+      "symbol": "RESTUserService",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Services/RESTServices.swift",
+      "line": 11,
+      "symbol": "RESTServices",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/AppState.swift",
+      "line": 29,
+      "symbol": "AppState.currentSessionId",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/AppState.swift",
+      "line": 33,
+      "symbol": "AppState.updateSessionId(newSid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/AppState.swift",
+      "line": 37,
+      "symbol": "AppState.updateSessionValidityDate(newDate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/AppState.swift",
+      "line": 41,
+      "symbol": "AppState.currentLocaleIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/AppState.swift",
+      "line": 45,
+      "symbol": "AppState.currentLocale",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/AppState.swift",
+      "line": 49,
+      "symbol": "AppState.updateLocaleIdentifier(newLocaleIdentifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/Forms/FormManager.swift",
+      "line": 6,
+      "symbol": "FormManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/Forms/FormManagers.swift",
+      "line": 6,
+      "symbol": "FormManagers",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/State/Forms/FormMetaData.swift",
+      "line": 6,
+      "symbol": "FormMetaData",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/DateValidator.swift",
+      "line": 6,
+      "symbol": "DateValidator",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/NumberValidator.swift",
+      "line": 6,
+      "symbol": "NumberValidator",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/StringArrayValidator.swift",
+      "line": 6,
+      "symbol": "StringArrayValidator",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/TextValidator.swift",
+      "line": 6,
+      "symbol": "TextValidator",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/UITextFieldValidationExtension.swift",
+      "line": 7,
+      "symbol": "UIViewController.validate(field:with:errorMessage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/UITextFieldValidationExtension.swift",
+      "line": 16,
+      "symbol": "UIViewController.validate(inputString:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/UITextFieldValidationExtension.swift",
+      "line": 24,
+      "symbol": "UITextField.validate(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Application/Validators/Validator.swift",
+      "line": 6,
+      "symbol": "Validator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 31,
+      "symbol": "HTTPMethod.options",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 32,
+      "symbol": "HTTPMethod.get",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 33,
+      "symbol": "HTTPMethod.head",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 34,
+      "symbol": "HTTPMethod.post",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 35,
+      "symbol": "HTTPMethod.put",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 36,
+      "symbol": "HTTPMethod.patch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 37,
+      "symbol": "HTTPMethod.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 38,
+      "symbol": "HTTPMethod.trace",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 39,
+      "symbol": "HTTPMethod.connect",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 41,
+      "symbol": "HTTPMethod.defaultParameterEncodingType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 47,
+      "symbol": "ParamEncodingError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 103,
+      "symbol": "URLEncoding.Destination.httpBody",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 103,
+      "symbol": "URLEncoding.Destination.methodDependent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Data/Network/ParameterEncoding.swift",
+      "line": 103,
+      "symbol": "URLEncoding.Destination.queryString",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "CollectionViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": null,
+      "symbol": "TableViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": 6,
+      "symbol": "BaseVC",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": 213,
+      "symbol": "TableViewController",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/BaseVC.swift",
+      "line": 225,
+      "symbol": "CollectionViewController",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 16,
+      "symbol": "MultilineTextEditorVC.textView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 17,
+      "symbol": "MultilineTextEditorVC.statusText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 33,
+      "symbol": "MultilineTextEditorVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 40,
+      "symbol": "MultilineTextEditorVC.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 47,
+      "symbol": "MultilineTextEditorVC.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 54,
+      "symbol": "MultilineTextEditorVC.initWithString(_:doneClosure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 63,
+      "symbol": "MultilineTextEditorVC.hidesKeyboardOnTap()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 67,
+      "symbol": "MultilineTextEditorVC.prepareKeyboardShowAnimation(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/MultilineTextEditorVC.swift",
+      "line": 76,
+      "symbol": "MultilineTextEditorVC.textView(_:shouldChangeTextIn:replacementText:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 41,
+      "symbol": "RequestPermissionVC.AlertButtonType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 45,
+      "symbol": "RequestPermissionVC.okButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 46,
+      "symbol": "RequestPermissionVC.cancelButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 47,
+      "symbol": "RequestPermissionVC.explanationText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 48,
+      "symbol": "RequestPermissionVC.explanationTitleLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 50,
+      "symbol": "RequestPermissionVC.okButtonLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 51,
+      "symbol": "RequestPermissionVC.cancelButtonLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 52,
+      "symbol": "RequestPermissionVC.explanationTextContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 53,
+      "symbol": "RequestPermissionVC.explanationTitleContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 54,
+      "symbol": "RequestPermissionVC.hideCancelButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 56,
+      "symbol": "RequestPermissionVC.actionClosure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 58,
+      "symbol": "RequestPermissionVC.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 69,
+      "symbol": "RequestPermissionVC.initWithMessage(_:title:okButtonLabel:cancelButtonLabel:buttonClosure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 99,
+      "symbol": "RequestPermissionVC.cancelButtonTapAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 103,
+      "symbol": "RequestPermissionVC.onButtonTapAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/Shared/RequestPermissionVC.swift",
+      "line": 114,
+      "symbol": "UIViewController.pushFullscreenAlert(withMessage:andTitle:hideCancelButton:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/DeepLinkExtension.swift",
+      "line": 6,
+      "symbol": "InterceptedURLs",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/DeepLinkExtension.swift",
+      "line": 48,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/DeepLinkExtension.swift",
+      "line": 77,
+      "symbol": "UIViewController.handleDeepLink(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/DeepLinkExtension.swift",
+      "line": 97,
+      "symbol": "UIViewController.interceptUrl(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/DeepLinkExtension.swift",
+      "line": 110,
+      "symbol": "UIViewController.handleURLString(_:fallBackUrlString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/KeyboardAppearanceExtension.swift",
+      "line": null,
+      "symbol": "KeyboardHandling",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/KeyboardAppearanceExtension.swift",
+      "line": 8,
+      "symbol": "KeyboardHandling",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/MailAndWebExtension.swift",
+      "line": 39,
+      "symbol": "UIViewController.sendMail(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/MailAndWebExtension.swift",
+      "line": 53,
+      "symbol": "UIViewController.mailComposeController(_:didFinishWith:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/MailAndWebExtension.swift",
+      "line": 153,
+      "symbol": "UIViewController.callPhoneNumber(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/MailAndWebExtension.swift",
+      "line": 164,
+      "symbol": "UIViewController.callPhoneNumberFinally(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/MailAndWebExtension.swift",
+      "line": 184,
+      "symbol": "CustomRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/RefreshControlWrapper.swift",
+      "line": 22,
+      "symbol": "TVRefreshControl",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/VCNavigationRouter.swift",
+      "line": null,
+      "symbol": "Routable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/VCNavigationRouter.swift",
+      "line": 11,
+      "symbol": "UIViewController.StoryboardIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/VCNavigationRouter.swift",
+      "line": 14,
+      "symbol": "UIViewController.StoryboardSceneIdentifier",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/VCExtensions/VCNavigationRouter.swift",
+      "line": 19,
+      "symbol": "Routable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/ViewController.swift",
+      "line": 6,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/ZoomNavigationAnimator.swift",
+      "line": 22,
+      "symbol": "CustomNavigationTransitiong",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/ViewControllers/ZoomNavigationAnimator.swift",
+      "line": 26,
+      "symbol": "ZoomNavigationAnimator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/ButtonWithGradientBG.swift",
+      "line": 6,
+      "symbol": "GradientDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/ButtonWithGradientBG.swift",
+      "line": 10,
+      "symbol": "ButtonWithGradientBG",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/CenteredLabelButton.swift",
+      "line": 15,
+      "symbol": "CenteredLabelButton.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/CenteredLabelButton.swift",
+      "line": 20,
+      "symbol": "CenteredLabelButton.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/GradientView.swift",
+      "line": 7,
+      "symbol": "GradientView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/LayerPropertiesView.swift",
+      "line": 7,
+      "symbol": "LayerPropertiesView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 18,
+      "symbol": "OverlayViewType.activityIndicatorFullscreenGray",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 45,
+      "symbol": "OverlayView.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 46,
+      "symbol": "OverlayView.overlayAlphaValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 47,
+      "symbol": "OverlayView.activityIndicator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 48,
+      "symbol": "OverlayView.statusLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 50,
+      "symbol": "OverlayView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 55,
+      "symbol": "OverlayView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 60,
+      "symbol": "OverlayView.init(type:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 68,
+      "symbol": "OverlayView.startAnimating()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 72,
+      "symbol": "OverlayView.stopAnimating()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 76,
+      "symbol": "OverlayView.setStatusMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/OverlayView.swift",
+      "line": 89,
+      "symbol": "OverlayView.setupActivityIndicatorViews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 92,
+      "symbol": "RatingView.starImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 100,
+      "symbol": "RatingView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 105,
+      "symbol": "RatingView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 110,
+      "symbol": "RatingView.init(ratingStarImage:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 115,
+      "symbol": "RatingView.intrinsicContentSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 120,
+      "symbol": "RatingView.sizeToFit()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 128,
+      "symbol": "RatingView.tapOnView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/RatingView.swift",
+      "line": 134,
+      "symbol": "RatingView.panOnView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/StandardButton.swift",
+      "line": 7,
+      "symbol": "StandardButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 54,
+      "symbol": "TextViewWithPlaceholder.placeholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 64,
+      "symbol": "TextViewWithPlaceholder.placeholderTextColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 70,
+      "symbol": "TextViewWithPlaceholder.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 76,
+      "symbol": "TextViewWithPlaceholder.attributedText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 82,
+      "symbol": "TextViewWithPlaceholder.currentText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 89,
+      "symbol": "TextViewWithPlaceholder.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 101,
+      "symbol": "TextViewWithPlaceholder.constrainSelectionIfNeccessary()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 107,
+      "symbol": "TextViewWithPlaceholder.isShowingPlaceholder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 111,
+      "symbol": "TextViewWithPlaceholder.hidePlaceholderText()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 121,
+      "symbol": "TextViewWithPlaceholder.showPlaceholderText()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Presentation/Views/TextViewWithPlaceholder.swift",
+      "line": 134,
+      "symbol": "TextViewWithPlaceholder.showPlaceholderTextIfNeccessary()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/AsyncTask/AsyncTask.swift",
+      "line": 9,
+      "symbol": "AsyncTask.taskId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/AsyncTask/AsyncTask.swift",
+      "line": 10,
+      "symbol": "AsyncTask.closure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/AsyncTask/AsyncTask.swift",
+      "line": 12,
+      "symbol": "AsyncTask.execute(completion:failure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/AsyncTask/AsyncTask.swift",
+      "line": 17,
+      "symbol": "AsyncTaskMode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/AsyncTask/AsyncTask.swift",
+      "line": 22,
+      "symbol": "AsyncTaskToken",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/ArrayExtension.swift",
+      "line": 31,
+      "symbol": "Array.randomItem()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/ArrayExtension.swift",
+      "line": 37,
+      "symbol": "Array.pickRandomly(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/BezierPath+COAdditions.swift",
+      "line": 8,
+      "symbol": "UIBezierPath.imageRepresentationWithFillColor(_:strokeSize:strokeColor:scale:backgroundColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/BezierPath+COAdditions.swift",
+      "line": 49,
+      "symbol": "UIBezierPath.fiveSidedStarInRect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/BezierPath+COAdditions.swift",
+      "line": 64,
+      "symbol": "UIBezierPath.drawStarBezier(x:y:radius:sides:pointyness:angleAdjustment:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/DateExtension.swift",
+      "line": 74,
+      "symbol": "Date.doubleValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/DateExtension.swift",
+      "line": 77,
+      "symbol": "Date.intValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/Dictionary+Keypath.swift",
+      "line": 7,
+      "symbol": "Dictionary.value(forKeyPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/Dictionary+Keypath.swift",
+      "line": 35,
+      "symbol": "Dictionary.setValue(_:forKeyPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/DoubleExtension.swift",
+      "line": 12,
+      "symbol": "Double.dateValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/EnumExtension.swift",
+      "line": 15,
+      "symbol": "EnumCollection.allValues",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/EnumExtension.swift",
+      "line": 20,
+      "symbol": "EnumCollection.cases()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/EnumExtension.swift",
+      "line": 32,
+      "symbol": "EnumCollection.allValues",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/IntegerExtension.swift",
+      "line": 12,
+      "symbol": "Int.randomInt()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/IntegerExtension.swift",
+      "line": 16,
+      "symbol": "Int.dateValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/UIColorExtension.swift",
+      "line": 135,
+      "symbol": "UIColor.darkerColor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/UIImageViewExtension.swift",
+      "line": 15,
+      "symbol": "UIImageView.setImageFromUrl(_:placeholder:format:failure:success:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/UIImageViewExtension.swift",
+      "line": 39,
+      "symbol": "UIImageView.setUncachedImageFromUrl(_:placeholder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/UIView+AutoLayout.swift",
+      "line": 41,
+      "symbol": "UIView.ffs_userAddedConstraints(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/UIView+Blur.swift",
+      "line": 27,
+      "symbol": "UIView.blur()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/UIViewAnimationExtension.swift",
+      "line": 12,
+      "symbol": "UIView.fadeTo(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/ViewControllerExtension.swift",
+      "line": 11,
+      "symbol": "UIViewController.showSimpleAlert(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/ViewControllerExtension.swift",
+      "line": 19,
+      "symbol": "UIViewController.viewControllerById(_:storyBoard:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/CocoaExtensions/ViewControllerExtension.swift",
+      "line": 27,
+      "symbol": "UIViewController.getTopControllersIfContainerVC()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Configurations/ConfigValues.swift",
+      "line": 7,
+      "symbol": "Notification.Name.login",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Configurations/ConfigValues.swift",
+      "line": 8,
+      "symbol": "Notification.Name.logout",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Configurations/ConfigValues.swift",
+      "line": 11,
+      "symbol": "ConfigValues",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 10,
+      "symbol": "Credentials.serviceName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 11,
+      "symbol": "Credentials.autoLoginUsernameKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 12,
+      "symbol": "Credentials.lastUsernameKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 15,
+      "symbol": "Credentials.accessGroup",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 17,
+      "symbol": "Credentials.passwordKey",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 19,
+      "symbol": "Credentials.storedLastUsername",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 23,
+      "symbol": "Credentials.autoLoginUsername",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 27,
+      "symbol": "Credentials.storedPassword(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 39,
+      "symbol": "Credentials.storeCredentials(forUser:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 44,
+      "symbol": "Credentials.storeUsername(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 50,
+      "symbol": "Credentials.storePassword(_:forAccount:newAccountName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/Credentials.swift",
+      "line": 63,
+      "symbol": "Credentials.clearAutoLoginUsername()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/KeychainPasswordItem.swift",
+      "line": null,
+      "symbol": "KeychainPasswordItem.KeychainError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/KeychainSupport/KeychainPasswordItem.swift",
+      "line": 26,
+      "symbol": "KeychainPasswordItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Managers/LocalizationManager.swift",
+      "line": 37,
+      "symbol": "LocalizationManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Managers/LocationManager.swift",
+      "line": 11,
+      "symbol": "LocationManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Models/Email.swift",
+      "line": 23,
+      "symbol": "Email.address",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Models/Email.swift",
+      "line": 24,
+      "symbol": "Email.subject",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Models/Email.swift",
+      "line": 25,
+      "symbol": "Email.mailBody",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Models/Email.swift",
+      "line": 26,
+      "symbol": "Email.isHTMLMail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alex/Work/GenericApp/GenericApp/Layers/Process/Models/Email.swift",
+      "line": 28,
+      "symbol": "Email.createMFMailComposerController()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/alex/Work/GenericApp"
+}

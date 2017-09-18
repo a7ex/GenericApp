@@ -1,0 +1,3 @@
+[exclude]
+Layers/Process/Managers/LocalizationManager.swift
+[folders]

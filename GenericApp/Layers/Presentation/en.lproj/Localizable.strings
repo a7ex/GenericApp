@@ -1,0 +1,43 @@
+/* NOTE: The following two pairs are to determine how to mark required or optional form fields
+ set the translation fo the ones you do not want to see to an empty string */
+
+/* Open URL confirmation alert open url button text */
+"Open URL" = "Open URL";
+
+/* Confirm call alert: title (placeholder: phonenumber) */
+"Call %@" = "Call %@";
+
+/* Generic permission view: default button label for 'ok' button (maybe overridden by caller) */
+"Ok" = "Ok";
+
+/* Unable to call alert: title */
+"Unable to call" = "Unable to call";
+
+/* Unable to open URL alert: title */
+"Unable to open URL" = "Unable to open URL";
+
+/* BackendConnector: if anything goes wrong when logging in, but we do not get an error message */
+"Unknown error. Unable to log into the backend." = "Unknown error. Unable to log into the backend.";
+
+/* Generic permission view: default button label for 'cancel' button (maybe overridden by caller)
+ No title for the alert button
+ Shared code: cancel button text
+ Mail composing: cancel button text */
+"Cancel" = "Cancel";
+
+/* Generic permission view: default text for title (maybe overridden by caller) */
+"Why?" = "Why?";
+
+/* Confirm open url alert: title (placeholder: url) */
+"Open %@ in Safari" = "Open %@ in Safari";
+
+/* Call confirmation alert call button text */
+"Call" = "Call";
+
+
+
+
+
+/* --------- orphaned translations: -------------- */
+
+
